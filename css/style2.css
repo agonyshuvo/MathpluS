@@ -1,0 +1,78 @@
+
+*{
+    font-family: 'Kiwi Maru', serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    border:none; outline: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+
+
+nav .logo{
+    color:rgb(241, 237, 237);
+    font-size: 2.5rem;
+    margin:0px 70px;
+    padding: 10px;
+}
+
+
+.footer{
+    background:rgb(20, 20, 20);
+}
+
+.footer .box-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer .box-container .box{
+    margin:1.5rem;
+    text-align: center;
+    flex:1 1 25rem;
+}
+
+.footer .box-container .box h3{
+    font-size: 2.5rem;
+    color:#fff;
+    padding:1rem 0;
+}
+
+.footer .box-container .box p{
+    font-size: 1.7rem;
+    color:#eee;
+    padding:.7rem 0;
+}
+
+.footer .box-container .box p i{
+    padding-right: .5rem;
+    color:rgb(72, 89, 184);
+}
+
+.footer .box-container .box a{
+    font-size: 1.8rem;
+    display: block;
+    padding:.5rem 0;
+    color:#eee;
+}
+
+.footer .box-container .box a:hover{
+    text-decoration: underline;
+}
+
+.footer .credit{
+    
+    font-size: 2rem;
+    color: #111;;
+    background:#fff;
+    text-align: center;
+    font-weight: normal;
+    
+}
+
+.footer .credit a{
+    color:#f39c12
+}

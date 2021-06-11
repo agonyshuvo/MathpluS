@@ -17,7 +17,7 @@ include  'head.php'
        body{
         background-image: url(img/cccc.jpg);
         background-repeat: no-repeat;
-        /*background-attachment: fixed;*/
+        /*background-attachment: fixed;////////////////*/
         background-size: cover;}
    </style>
     <!-- about section starts  -->
